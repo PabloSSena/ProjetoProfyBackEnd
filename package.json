@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts",
-    "knex:migrate":"knex --knexfile.ts migrate:latest",
-    "knex:migrate:rollback":"knex --knexfile.ts migrate:rollback"
+    "knex:migrate":"knex --knexfile knexfile.ts migrate:latest",
+    "knex:migrate:rollback":"knex --Knexfile.ts migrate:rollback"
 
   },
   "keywords": [],
